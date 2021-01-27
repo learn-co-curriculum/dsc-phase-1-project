@@ -1,3 +1,34 @@
+## In this project, we aim to provide meaningful interpretations of the given data sets in order to provide
+## guidance for an upcoming movie studio.
+
+We are addressing the following topics:
+- Which producers create consistently the best-rated films?
+	- Along with their film ratings, which producers have the largest margins between production budget and box office income?
+- Which genres of films do the best in theaters?
+	- Creating movies in popular genres will attract more initial viewers.
+	- Comparing film genres with their overhead costs and ROIs can provide insights on which types of films could be profitable.
+- What time of year do film releases do best?
+	- Viewership will impact the film's overall income and releasing films during peak seasons or months can increase viewership.
+	- Exploring the frequency of film releases throughout the year can also provide insights on when other studios are releasing movies and how to address competing films.
+
+#Libraries and Import Statements for Reference:
+```python
+import gzip
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import datetime
+%matplotlib inline
+```
+
+#Methods:
+We unzipped and imported the .csv files from /zippedData using gunzip and pandas, respectively.
+Each question/data insight was addressed by a different team member and each team member assembled their own dataframe with relevant information for their question.
+Visualizations are generated with the seaborn library.
+
+
+
 # Phase 1 Project
 
 You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
