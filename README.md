@@ -44,19 +44,19 @@ Producers:
 This graph represents the intersection of the budget averages, net income averages, and mean movie rating averages for all producers.  
 The intersection of the lowest budget average, highest net income and highest rating could deliver the strongest choice of producer.  
 
-![budgetmean_vs_incomemean]('./images/budget_meansXnet_income_meanX_producer_rating1') 
+![budgetmean_vs_incomemean](./images/budget_meansXnet_income_meanX_producer_rating1) 
 
 Genres:
 This graph represents return on investment by genre.  
 Genres with the highest ROI would suggest higher viewership counts, historically.  
   
-![ROI_by_genre]('./images/roipergenre')  
+![ROI_by_genre](./images/roipergenre)  
 
 Release Dates:  
 This graph represents each month by its net income (y-axis) versus the frequency of films released during that month.
 Releasing films during months with high net income but low release frequency could address issues of competition and yield higher income.  
 
-![release_month_scatter]('./images/release_dates_scatter')  
+![release_month_scatter](./images/release_dates_scatter)  
 
 Summary: 
 
@@ -68,15 +68,8 @@ Through this data analysis, we are able to provide several recommendations based
 -Animation, fantasy, and adventure genres for films historically have a higher potential to net positive.
 -Summer film releases are the most succesful for a high net income. 
 
-###Conclusion:
+### Conclusion:
 This data can be useful to finetune selections based on individual budget, staffing, and style limitations. 
 
 Our recommendations look to minimize budget and maximize net income but depending on individual goals, the information allows to explore other intersections.
-
-
-
-
-
-
-
 
