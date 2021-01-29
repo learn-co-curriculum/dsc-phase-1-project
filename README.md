@@ -9,7 +9,7 @@ Authors:
 
 ## Contents and Data
 
-In the folder `data` are movie datasets from:
+In the folder `zippedData` are movie datasets from:
 
 * [Box Office Mojo](https://www.boxofficemojo.com/)
 * [IMDB](https://www.imdb.com/)
