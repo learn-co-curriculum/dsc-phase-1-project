@@ -1,8 +1,8 @@
 # Microsoft Studios Film Data Analysis  
 Authors:  
-Marcos Panyagua
-Rachel Edwards
-Svitlana Glibova  
+[Marcos Panyagua](mailto:marcosvppfernandes@gmail.com?)  
+[Rachel Edwards](mailto:rachelke411@gmail.com?)  
+[Svitlana Glibova](mailto:s.glibova@gmail.com?)  
 
 ![popcorn_banner](images/banner.jpg)
 
