@@ -58,10 +58,10 @@ The intersection of the lowest budget average, highest net income and highest ra
 ![budgetmean_vs_incomemean](images/budget_meansXnet_income_meanX_producer_rating1.jpg) 
 
 * Genres:  
-This graph represents return on investment by genre.  
-Genres with the highest ROI would suggest higher viewership counts, historically.  
+This graph represents profitability of each genre.  
+Genres with the highest chances of netting positive could suggest higher viewership counts, historically.  
   
-![ROI_by_genre](images/roipergenre.png)  
+![ROI_by_genre](images/profitability_by_genre.png)  
 
 * Release Dates:  
 This graph represents each month by frequency of films released during that month versus net income.
