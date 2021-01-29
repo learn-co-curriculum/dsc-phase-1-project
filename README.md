@@ -52,7 +52,7 @@ In order to determine the best seasons for film releases, we examined the freque
 The net income was calculated by subracting the film's budget from the worldwide gross income, and the frequency was calculated by grouping
 releases by month and counting the number of occurences.   
 
-![release month scatter plot]('release_dates_scatter')
+![release month scatter plot]('images/release_dates_scatter')
 
 ###Evaluation:
 Through this data analysis, we are able to provide several recommendations based on our measures of success:  
