@@ -38,7 +38,7 @@ In order to provide specific recommendations, we selected several metrics to use
 
 ### Data Understanding (include one example graph for each topic here):  
 Producers: 
-
+This graph represents the intersection of the budget averages, net income averages, and movie rating averages for all producers, The intersection of the lowest budget average, highest net income and highest rating would produce the ideal producer.
 ![budget mean vs income mean]('images/budget_meansXnet_income_meanX_producer_rating1') 
 
 Genres:
