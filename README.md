@@ -9,6 +9,9 @@ Authors:
 
 ## Contents and Data
 
+`images` contains all images used in our presentation and notebooks.  
+`notebooks` contains all independent EDA notebooks created to combine into the final notebook file.  
+
 In the folder `zippedData` are movie datasets from:
 
 * [Box Office Mojo](https://www.boxofficemojo.com/)
@@ -17,9 +20,7 @@ In the folder `zippedData` are movie datasets from:
 * [TheMovieDB](https://www.themoviedb.org/)
 * [The Numbers](https://www.the-numbers.com/)  
 
-`images` contains all images used in our presentation and notebooks. 
- 
-`notebooks` contains all independent EDA notebooks created to combine into the final notebook file.  
+`eda_project_jan2021.pdf` is a pdf file containing a non-technical presentation of our data.
 
 ### Business Problem  
 [Microsoft](microsoft.com/en-us) is planning to venture into film production by opening a new studio and need actionable insights into movie data to determine which films to produce in order to succeed at the box office.  
