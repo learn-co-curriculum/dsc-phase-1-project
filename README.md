@@ -1,9 +1,9 @@
-### Business Problem
+## Business Problem
 Microsoft is planning to venture into film production by opening a new studio and need actionable insights into movie data to determine which films to produce in order to do succeed at the box office.  
 
 We will clean, assemble, interpret, and visualize data from the given data sets in order to provide recommendations for business decisions.  
 
-### The Data
+### Contents and Data
 
 In the folder `zippedData` are movie datasets from:
 
@@ -13,13 +13,16 @@ In the folder `zippedData` are movie datasets from:
 * [TheMovieDB](https://www.themoviedb.org/)
 * [The Numbers](https://www.the-numbers.com/)  
 
+`images` contains all images used in our presentation and notebooks.  
+`notebooks` contains all independent EDA notebooks created to combine into the final notebook file.
+
 ### Business Understanding  
 In order to provide specific recommendations, we selected several metrics to use:  
 -Producers  
 -Genres  
 -Release Dates  
 
-### Topic Details and Motivation:
+### Topic Details and Motivation  
 - Which producers create consistently the best-rated films?
 	- Along with their film ratings, which producers have the largest margins between production budget and box office income?
 - Which genres of films do the best in theaters?
@@ -30,15 +33,26 @@ In order to provide specific recommendations, we selected several metrics to use
 	- Exploring the frequency of film releases throughout the year can also provide insights on when other studios are releasing movies and how to address competing films.
 
 
-## Methods:   
+## Methods   
 ### Exploratory Data Analysis (EDA):  
 
 ### Data Understanding (include one example graph for each topic here):  
-Producers:  
+Producers: 
 
-Genres:  
+![budget mean vs income mean]('images/budget_meansXnet_income_meanX_producer_rating1') 
 
-Release Dates:  
+Genres:
+
+![ROI by genre]('images/roipergenre')  
+
+Release Dates:
+
+Summary:  
+In order to determine the best seasons for film releases, we examined the frequency of film releases per month as well as their net income.
+The net income was calculated by subracting the film's budget from the worldwide gross income, and the frequency was calculated by grouping
+releases by month and counting the number of occurences.   
+
+![release month scatter plot]('release_dates_scatter')
 
 ###Evaluation:
 Through this data analysis, we are able to provide several recommendations based on our measures of success:  
