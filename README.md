@@ -75,7 +75,7 @@ Releasing films during months with high net income but low release frequency cou
 Through this data analysis, we are able to provide several recommendations based on our measures of success:  
 * We recommend selecting a producer with higher profit margins based on their previous film history.
 * Animation, fantasy, and adventure genres for films historically have a higher potential to net positive.
-* Summer film releases are the most succesful for a high net income. 
+* Summer film releases are the most successful for a high net income. 
 
 ### Conclusion:  
 This data can be useful to finetune selections based on individual budget, staffing, and style limitations.   
