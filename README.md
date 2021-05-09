@@ -2,7 +2,6 @@
 
 You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
 
 Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
 
