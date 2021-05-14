@@ -7,7 +7,7 @@ This project uses data from Rotten Tomatoes, TheMovieDB, and The Numbers and ana
 
 ## Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. Giving recommendations to the head of Microsoft's new movie studio and help decide what type of films to create that will be most profitable.
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. In this analysis, we will give recommendations to the head of Microsoft's new movie studio and help decide what type of films to create that will be most profitable.
 
 ### Three Recommendations
 
