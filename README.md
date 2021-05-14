@@ -25,11 +25,40 @@ The Numbers, the largest freely available database of movie industry information
 
 ## Methods
 
-This project analyzes the average worldwide gross for the different genres that have been made in the last 20 years.
+This project analyzes the average worldwide gross for the different genres that have been made in the last 20 years. It also takes a look at the rating vs gross ratio to see if there is a correlation
 
 
 ## Results
 
-![A test image](/photos/worldwide_gross.png)
+![](/photos/Movie_Gross_vs_Critical_Score.png)
+
+Unfortunately, there does not appear to be a strong correlation between the two. However, we can still take both into account using a new number that we will call the quality ratio. The quality ratio will be calculated by multiplying the box office numbers with our freshness ratio.
+
+![](/photos/worldwide_gross.png)
+
+So base of an averge of worldwide gross for each genre, it looks like are top three genres are animation, adventure, and fantasy just beating over family. Using this information, we can pull the top 5 writers and directors in each genre. For our purposes here, we will look at the top 3: Animation, Adventure, and Fantasy
+
+![](/photos/Writers.png)
+![](/photos/directors.png)
 
 ## Conclusions
+
+Conclusions
+So are analysis leads to the following findings:
+
+#### 1. Types of genres to make basic off averge worldwide gross.
+Looking at are chart for worldwide gross, animation, adventure, and fantasy gross the highest.
+
+#### 2. Writers are the ideal to create a great story line that all will want to see.
+We would like to reach out to the following writers:
+
+Animation: John Logan
+Adventure: Neal Purvis
+Fantasy: Steve Kloves
+
+#### 3. The best possiable directors to lead the moive to be a smach hit.
+We would like to reach out to the following directors:
+
+Animation: Gore Verbinski
+Adventure: Sam Mendes
+Fantasy: Chris Columbus
