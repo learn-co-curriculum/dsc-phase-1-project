@@ -1,12 +1,12 @@
 # Phase 1 Project
-## Microsoft Movie Studio Genre R.O.I. Analysis
+## Microsoft Movie Studio Genre - R.O.I. Analysis
 
 **Author**: Samantha Baltodano, Jesus Baquiax, Shane Mangold, Senjin Yang
 
 
 ## Overview 
 
-This project analyzes which movie genres Microsoft's Movie Studios should invest their resources in producing using exploratory data analysis. Microsoft can use this analysis to determine which genres have the largest worldwide Return On Investment (R.O.I), how the R.O.I performs in domestic vs international markets, and which directors and producers have worked in the movies with the highest R.O.I.
+This project analyzes which movie genres Microsoft's Movie Studios should invest their resources in producing using exploratory data analysis. Microsoft can use this analysis to determine which genres have the greatest worldwide Return On Investment (R.O.I), how the R.O.I. performs in domestic vs international markets, and which directors and producers have worked in the movies with the highest R.O.I.
 
 
 ## Business Problem
@@ -27,9 +27,9 @@ The movie datasets we used:
 
 ### Methods
 
-This project uses descriptive analysis and visualizations including trends over time. This provides Microsoft a useful overview of a genre's R.O.I. The three questions explored are:
+This project uses descriptive analysis and visualizations including trends over time. This project provides Microsoft a useful overview of a genre's R.O.I. The three questions explored are:
 
-1) What is the average ROI by genre? Out of our top 3-5 genres, let's take a look at best case and worst case ROI and decipher what may have influenced the success (or lack of success) a film had.
+1) Which genres should we create films in? Which genres provide the highest average ROI?
 
 2) Does the average ROI by genre follow a similar trend when compared between domestic and foreign markets?
 
@@ -39,7 +39,10 @@ This project uses descriptive analysis and visualizations including trends over 
 ### Results
 
 
-1)
+1) 
+
+![Q1_boxplot](./images/Q1_avg_worldwide_roi_for_the_top_5_genres.jpg)
+
 
 2)
 
