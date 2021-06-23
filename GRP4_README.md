@@ -65,6 +65,7 @@ Further analysis...
 
 ### For More Information(?)
 
+links to articles that might add to our project
 
 ### Repository Structure(?)
 
