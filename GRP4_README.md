@@ -41,7 +41,7 @@ This project uses descriptive analysis and visualizations including trends over 
 
 1) 
 
-![Q1_boxplot](./images/Q1_avg_worldwide_roi_for_the_top_5_genres.png)
+![Q1_boxplot](./Images/Q1_avg_worldwide_roi_for_the_top_5_genres.png)
 
 
 2)
