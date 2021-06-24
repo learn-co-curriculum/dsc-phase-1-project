@@ -1,7 +1,7 @@
 # Phase 1 Project
 ## Microsoft Movie Studio Genre - R.O.I. Analysis
 
-**Author**: Samantha Baltodano, Jesus Baquiax, Shane Mangold, Senjin Yang
+**Author**: Samantha Baltodano, Jesus Baquiax, Shane Mangold, Senjin Jang
 
 
 ## Overview 
@@ -40,16 +40,27 @@ This project uses descriptive analysis and visualizations including trends over 
 ### Results
 
 
-1) The 5 genres with the greatest worldwide R.O.I. are Mystery, Animation, Musical, Sci-Fi, and Adventure. We have also forecasted the best, base, and worst case scenario for each top 5 genre. Musicals and Mysteries have negative worst case scenarios. On base average level, each genre will return at least a 150% R.O.I. and the Mystery genre has the strongest best case scenario with a possible 613% R.O.I. Finally, a boxplot illustrates each genre's R.O.I.'s performance. 
-
-![Q1_table](./Images/top_5_case_scenarios.PNG)
+1) The 5 genres with the greatest worldwide R.O.I. are Mystery, Animation, Musical, Sci-Fi, and Adventure. We have also forecasted the best, base, and worst case scenario for each top 5 genre. Musicals and Mysteries have negative % worst case scenarios. On base average level, each genre will return at least a 150% R.O.I. and the Mystery genre has the strongest best case scenario with a possible 613% R.O.I. Finally, a boxplot illustrates each genre's R.O.I.'s performance. 
 
 ![Q1_case_scenario](./Images/top_5_genre_roi_table.PNG)
+
+![Q1_table](./Images/top_5_case_scenarios.PNG)
 
 ![Q1_boxplot](./Images/Q1_avg_worldwide_roi_for_the_top_5_genres.png)
 
 
-2) 
+2) Exploring the foreign R.O.I. vs. the domestic R.O.I. for each of the top 5 genres, Mystery is the only genre that 
+
+![mystery_table](./Images/mystery_table.png)
+
+![animation_table](./Images/animation_table.png)
+
+![musical_table](./Images/musical_table.png)
+
+![sci-fi_table](./Images/sci-fi_table.png)
+
+![adventure_table](./Images/adventure_table.png)
+
 
 3)
 
