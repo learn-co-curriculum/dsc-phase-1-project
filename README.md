@@ -30,8 +30,8 @@ simmering all of the work done in the project into digestible pieces of informat
 
 # Links
 
-*Presentation: https://github.com/NickoGreeno/dsc-phase-1-project/blob/f0d5897ce45ce97ee5dd5b365af3037325e576ef/Microsoft's%20Netflix.pdf
-*Sources: http://localhost:8888/tree/zippedData
+* Presentation: https://github.com/NickoGreeno/dsc-phase-1-project/blob/f0d5897ce45ce97ee5dd5b365af3037325e576ef/Microsoft's%20Netflix.pdf
+* Sources: http://localhost:8888/tree/zippedData
 
 
 
@@ -40,14 +40,27 @@ simmering all of the work done in the project into digestible pieces of informat
 
 ## Important
 
-zippedData includes all pieces of data used in this project.
-student.ipynb is a jupyter notebook that includes the work done in the project.
-Microsoft's Netflix.pdf is a pdf of the slideshow presentation of the same name.
-README.md is file you are currently in which includes all of this information.
-
+<p>
+    zippedData includes all pieces of data used in this project.
+<p/>
+<p>
+    student.ipynb is a jupyter notebook that includes the work done in the project.
+<p/>
+<p>
+    Microsoft's Netflix.pdf is a pdf of the slideshow presentation of the same name.
+<p/>
+<p>
+    README.md is file you are currently in which includes all of this information.
+<p/>
 
 ## Unimportant
 
-awesome.gif is as it sounds, a gif of a guy giving us a thumbs up.
-CONTRIBUTING.md is a file on contributing on GitHub.
-LICENSE.md is a file FlatIron School included regarding content.
+<p>
+    awesome.gif is as it sounds, a gif of a guy giving us a thumbs up.
+<p/>
+<p>
+    CONTRIBUTING.md is a file on contributing on GitHub.
+<p/>
+<p>
+    LICENSE.md is a file FlatIron School included regarding content.
+<p/>
