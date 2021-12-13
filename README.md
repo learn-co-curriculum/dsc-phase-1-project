@@ -30,7 +30,7 @@ simmering all of the work done in the project into digestible pieces of informat
 
 # Links
 
-* Presentation: https://github.com/NickoGreeno/dsc-phase-1-project/blob/f0d5897ce45ce97ee5dd5b365af3037325e576ef/Microsoft's%20Netflix.pdf
+* Presentation: https://docs.google.com/presentation/d/1Xgj-nNpRjV0NGDkAdgcyBQpnaElSMwTVjgIUxLXo1E0/edit?usp=sharing
 * Sources: https://github.com/NickoGreeno/dsc-phase-1-project/tree/main/zippedData
 
 
