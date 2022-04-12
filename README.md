@@ -1,65 +1,71 @@
-# Phase 1 Project
+# Phase 1 Project Template - Minimum Viable Product (MVP)
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+![blueprint](images/blueprint.png)
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+## Repository Contents
 
-## Project Overview
+Below is a list of the contents of this repository - instructions for using them are in the next section.
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
+- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
+- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
+- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
+- `data` folder: A folder for the data you reference with your code
+- `images` folder: A folder for the images you reference in your files 
+- `.gitignore`: A hidden file that tells git to not track certain files and folders
 
-### Business Problem
+## Instructions For Using This Repository
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+### Fork This Repository
 
-### The Data
+**For a group project**, have only one team member do these steps:
 
-In the folder `zippedData` are movie datasets from:
+1. Fork this repository to your personal account
+   - In GitHub, go to this repository and click the "Fork" button in the upper right
+   
+2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
+   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
+   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+3. Use `git clone` to clone your fork of this repo to your local computer
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+4. **For a group project**, add team members as collaborators to your fork of this repo
+   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
+   - Add your project team members as collaborators & send them the repo GitHub URL
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+### Work In Your Fork Of This Repository
 
-## Deliverables
+- Work in the repo clone that you created on your local machine
+- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
+- Fill in the README template in `TEMPLATE_README.md`
+- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
+   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
 
-There are three deliverables for this project:
+### Use The Slide Template
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
+2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
+3. **For a group project**, click the "Share" button and add your teammates as editors
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+### Tidy Up Your Project
 
-### Key Points
+- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
+- Save an appropriately-named PDF version of your slide deck to the repository
+- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
+- Delete unnecessary files from the repo using `git rm`
+   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
+   - This README file: `README.md`
+   - Any unused data files in the `data` folder
+   - Any unused images in the `images` folder
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+### Submit Your Project
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+***
+### Notes
 
-## Getting Started
-
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
+- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
