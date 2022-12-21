@@ -1,65 +1,94 @@
-# Phase 1 Project
+# Movie Industry Exploratory Data Analysis
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+**Author:** Hazal Aydin
+***
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+## Overview
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+I have been tasked with assisting Microsoft in their new movie studio initative. My goal was to explore what type of movies are currently doing the best at the box office and provide actionable insights based on this exploratory study. My analysis of the movie industry consisted of exploring IMDB and BOM data and utilising descriptive statistics and visualizations. The time period of the analysis was from 2010 to 2018. The results of the analysis showed that the Sci-Fi genre has the highest potential of the box office success. On the other hand, its distribution of total gross also suggests that the movies' success vary and there are risks involved. The other genres with high success potential are Animation and Adventure. The data also shows the movies that have a runtime between 125 minutes and 180 minutes are highly likely to succeed. Finally, there was no significant correlation between the average IMDB rating and the total gross. However, the results showed that the movies obtained a rating 8 and above had higher mean of total gross. Microsoft can use this report to brief wider exploratory studies and making decisions on the genres and movie lengths.
 
-## Project Overview
+***
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+## Business Problem
 
-### Business Problem
+Microsoft sees an opportunity to branch out to the multi-billion dollar movie-making industry. They decided to open a Microsoft Movie Studio but the challenge is they don't have the know-how in the industry. To assist them with this initiative, I explored what type of movies bring the highest worldwide gross.
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+I picked three variables to explore:
 
-### The Data
+* Genre: Which genres have a higher chance of success? I picked this variable to explore because it can give a general direction of where this initiative is going.
+* Movie Length: There is a trend of making longer movies in Holywood. I wanted to see if the longer movies have higher box office success - and if there is a limit to the movie length.
+* Average Rating: The main question I explored if there is a correlation between the IMDB ratings and the worldwide total gross.
 
-In the folder `zippedData` are movie datasets from:
+***
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+## Data
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+I used three datasets from two different data sources.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+***
+* IMDB Title Basics: It comes from the IMDB website where the information of the movies is stored.
+* IMDB Title Ratings: It comes from the IMDB website as well but it includes the average ratings that are derived from votes submitted by IMDb users, not movie critics.
+* BOM Movie Gross: It contains the domestic and foreign gross figures.
 
-## Deliverables
+***
 
-There are three deliverables for this project:
+## Methods
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+I used data from provided files. First, I removed columns and rows that were not part of the study. I either filled the null values or drop the rows that consist of them. I merged all the datasets together as my Master DataFrame and saved the cleaned version of this DataFrame in my repository. While analysing each variable, I created a new copy of the master DataFrame so that my calculations won't modify the original object and won't raise a SettingWithCopyWarning.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+***
 
-### Key Points
+## Results
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+![graph1](./images/total gross by genre.png)
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+The highest-grossing genre was Sci-Fi.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+![graph2](./images/total gross by movie length.png)
 
-## Getting Started
+The highest-grossing movie length was long format.
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+![graph3](./images/Average rating vs total gross.png)
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+There was a weak positive correlation between the average rating and the total gross figure and the association between them was negligible.
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+![graph4](./images/total gross by rating type.png)
 
-## Project Submission and Review
+The highest-grossing ratings were 8 and above.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
 
-## Summary
+## Conclusions
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+The insights of I derived from the study are:
+
+* Microsoft should invest in Sci-Fi, Animation, or Adventure genres.
+* The long-format movies that have a runtime of 125-180 minutes have higher box office success. However, when the runtime goes beyond 180 minutes, the total gross starts to decline. Therefore, Microsoft should produce a movie in a long format but shouldn't exceed 180 minutes mark.
+* There is no significant correlation between average movie ratings and box office revenue. Being said that, I observed the higher rating movies tend to perform well at the box office. The recommended action here is not to focus on the ratings purely and use the high-rating movies as a benchmark purely.
+
+In this study, I worked with constraints. The most important constraint was the delivery time of the analysis results. To derive some actionable insights, I had to limit the data I worked with and only selected three datasets. However, it became clear that more data was needed to explore the business problem. 
+
+Moving forward, I highly recommend considering the followings:
+
+* The production cost and the return on investment should be part of the following studies. We know the total gross but we don't know the cost of making a high-gross movie and how profitable it could be.
+* I explored the genres separately but it would provide great value if the combination of these genres are explored as well.
+* There is more variable that wasn't a part of this study but could potentially give actionable insights such as release dates, creative types, and production methods.
+* Finally, this study only consists of movies released between 2010 and 2018. It doesn't answer how the most recent movies performed and if the global pandemic affected the overall trends. There is value to explore these questions in a separate study before making decisions.
+
+***
+
+
+## For More Information
+
+Please review our full analysis in [my Jupyter Notebook](./dsc-phase1-project-template.ipynb) or my [presentation](./DS_Project_Presentation.pdf).
+
+For any additional questions, please contact **Hazal Aydin** at **h.aydinhazal@gmail.com**
+
+## Repository Structure
+
+```
+├── README.md                                        <- The top-level README for reviewers of this project
+├── Movie Industry Exploratory Data Analysis.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── Microsoft_Project_Presentation.pdf               <- PDF version of project presentation
+├── data                                             <- Both sourced externally and generated from code
+└── images                                           <- Both sourced externally and generated from code
+```
