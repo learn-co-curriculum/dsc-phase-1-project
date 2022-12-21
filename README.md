@@ -40,19 +40,19 @@ I used data from provided files. First, I removed columns and rows that were not
 
 ## Results
 
-![graph1](./images/total gross by genre.png)
+![example](images/total gross by genre.png)
 
 The highest-grossing genre was Sci-Fi.
 
-![graph2](./images/total gross by movie length.png)
+![example](/images/total gross by movie length.png)
 
 The highest-grossing movie length was long format.
 
-![graph3](./images/Average rating vs total gross.png)
+![example](/images/Average rating vs total gross.png)
 
 There was a weak positive correlation between the average rating and the total gross figure and the association between them was negligible.
 
-![graph4](./images/total gross by rating type.png)
+![example](/images/total gross by rating type.png)
 
 The highest-grossing ratings were 8 and above.
 
@@ -79,7 +79,7 @@ Moving forward, I highly recommend considering the followings:
 
 ## For More Information
 
-Please review our full analysis in [my Jupyter Notebook](./dsc-phase1-project-template.ipynb) or my [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [my Jupyter Notebook](./Movie Industry Exploratory Data Analysis.ipynb) or my [presentation](./Microsoft_Project_Presentation.pdf).
 
 For any additional questions, please contact **Hazal Aydin** at **h.aydinhazal@gmail.com**
 
