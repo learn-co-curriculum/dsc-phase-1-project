@@ -36,26 +36,6 @@ I used three datasets from two different data sources.
 
 I used data from provided files. First, I removed columns and rows that were not part of the study. I either filled the null values or drop the rows that consist of them. I merged all the datasets together as my Master DataFrame and saved the cleaned version of this DataFrame in my repository. While analysing each variable, I created a new copy of the master DataFrame so that my calculations won't modify the original object and won't raise a SettingWithCopyWarning.
 
-***
-
-## Results
-
-![example](images/total gross by genre.png)
-
-The highest-grossing genre was Sci-Fi.
-
-![example](/images/total gross by movie length.png)
-
-The highest-grossing movie length was long format.
-
-![example](/images/Average rating vs total gross.png)
-
-There was a weak positive correlation between the average rating and the total gross figure and the association between them was negligible.
-
-![example](/images/total gross by rating type.png)
-
-The highest-grossing ratings were 8 and above.
-
 
 ## Conclusions
 
