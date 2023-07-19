@@ -1,4 +1,4 @@
-# Phase 1 Project
+# microsoft-movie-insights
 
 You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
