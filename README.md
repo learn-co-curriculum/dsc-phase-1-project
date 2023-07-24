@@ -68,13 +68,9 @@ Looking at the grouped genres, I found that when movies released have combined g
 
 Venturing into the movie industry would indeed be a profitable venture for Microsoft if some key points as captured in our analysis are met. 
 
-Having ROI as my main money matrix besides the world-wide profit, I observed that having a high budget movie does not necessarily mean high ROI. The genre of the movies being released matters for a high ROI to be achieved. 
+Having ROI as my main money matrix besides the world-wide profit, I observed that having a high budget movie does not necessarily mean high ROI. The genre of the movies being released matters for a high ROI to be achieved. From the analysis done, Producing movies with combined genres offers more potential for successand release then in December, November and October. On the Flip side, they could focus on the animation, horror and/or musical genre which offer high ROI with little budget. 
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+The company can also consider employing directors like Steven Soderbergh, Steven Spielberg or David Gordon Green who have a lot of experience in their genre areas. They can also engage directors like Sébastien Lifshitz, Sujit Mondal, Adnan A. Shaikh, Karthik Chandan and/or Chad Zuver who are also well experienced in directing their movie genres and have also proven to generate high ROI in their work.
 
 ## Project Submission and Review
 
