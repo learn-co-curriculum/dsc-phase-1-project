@@ -29,7 +29,7 @@ The primary data of utmost importance revolves around financial metrics. Alongsi
 The first step involved acquiring the necessary data and organizing it into DataFrames. Although the initial data lacked significant utility on its own, I used SQL to merge the DataFrames and enhance their relevance. Next, I performed data cleaning operations, converting financial values into floats and eliminating duplicated and missing data. To facilitate analysis, I introduced a new column to calculate the ROI. Finally, I visualized the data using matplotlib and seaborn libraries.
 
 ## Results
-1. Months with the highes movie releases are December, October, April, March, June, August and November respectively.
+1. Months with the highest movie releases are December, October, April, March, June, August and November respectively.
 
 <img width="548" alt="Number of genres released per month" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/f018735d-a9d4-432d-bca6-aabebe571b20">
 
