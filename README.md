@@ -64,15 +64,11 @@ Looking at the grouped genres, I found that when movies released have combined g
 <img width="413" alt="Average ROI for Top 30 Directors" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/027a3a87-9c0c-4510-95a4-3f132af61726">
 
 
-### Key Points
+## CONCLUSION
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+Venturing into the movie industry would indeed be a profitable venture for Microsoft if some key points as captured in our analysis are met. 
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
-
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
-
-## Getting Started
+Having ROI as my main money matrix besides the world-wide profit, I observed that having a high budget movie does not necessarily mean high ROI. The genre of the movies being released matters for a high ROI to be achieved. 
 
 Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
 
