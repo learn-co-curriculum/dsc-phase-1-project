@@ -72,6 +72,16 @@ Having ROI as my main money matrix besides the world-wide profit, I observed tha
 
 The company can also consider employing directors like Steven Soderbergh, Steven Spielberg or David Gordon Green who have a lot of experience in their genre areas. They can also engage directors like Sébastien Lifshitz, Sujit Mondal, Adnan A. Shaikh, Karthik Chandan and/or Chad Zuver who are also well experienced in directing their movie genres and have also proven to generate high ROI in their work.
 
-## Summary
+## Repository Structure
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+README.MD: Readme file for reviewers of the project.
+
+student.ipynb: Jupyter notebook containing the code used to explore, clean, and analyze the data.
+
+student.pdf: PDF version of the notebook
+
+presentation.pdf: Google Slides presentation
+
+Data: Folder containing the data used for the project, including the cleaned versions of the data.
+
+Figures: Includes the figures in the presentation.
