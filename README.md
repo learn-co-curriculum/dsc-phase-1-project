@@ -1,44 +1,37 @@
-# Phase 1 Project
+# MICROSOFT MOVIE STUDIO
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
-
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
-
+**Author:** Caleb Stanley Ochieng
 ## Project Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+Microsoft is exploring the possibility of entering the movie-making industry by establishing their own studio. However, they acknowledge that they lack experience in this field. As a result, they have requested my assistance in identifying trends within the movie industry that could contribute to their success. In order to facilitate the launch, I have examined historical movie data to identify the most favorable genres and release months that offer both high return on investments and low production costs. In line with this, I also identified the impact of star appeal (directors) in the studio's success.
 
 ### Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Microsoft aims to venture into the streaming and movie industry, seeking to compete with well-established platforms such as Netflix, Hulu, Amazon, Apple, and other major streaming services. This decision comes after observing the success achieved by competitors in this domain. The move towards diversifying their portfolio into different industries is seen as a positive step for large businesses. Given the significant size and promising potential for returns, delving into this expansive sector presents an excellent opportunity for Microsoft to generate additional revenue. Moreover, it offers an avenue to reach a broader audience, benefiting other sectors within the organization by attracting potential customers.
+
+To establish the foundation of this new division, we will address the following inquiries:
+
+1. Which movie genre would be most suitable for the initial launch?
+2. What would be the optimal release date for the movie?
+3. Who would be the ideal director to helm the film?
+To achieve this, we will utilize data from reputable sources such as IMDB, Rotten Tomatoes, TheMovieDB, and The Numbers.
+
+We are prioritizing these crucial aspects to identify the most promising genres that allow us to enter the industry with minimal production expenses. Additionally, determining the optimal launch timing will prevent us from getting overshadowed in a highly competitive market. Moreover, selecting a director who has already achieved success in the chosen genre and industry will provide us with a strong foundation to ensure a successful start.
 
 ### The Data
 
-In the folder `zippedData` are movie datasets from:
+For this project, I will utilize data from various sources, including Box Office Mojo, IMDB, Rotten Tomatoes, TheMovieDB, and The Numbers. This data encompasses comprehensive details about movies, such as the key individuals involved in production, reviews, and financial metrics. To achieve our objectives of identifying the best genre, optimal release time, and ideal director, I will focus on crucial financial indicators, including global gross and production budget. Additionally, I will analyze factors like film performance across different release months and the directors behind the most successful films in genres with high potential. By leveraging this information, we aim to establish a robust foundation to enter the cinematic industry successfully.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+The primary data of utmost importance revolves around financial metrics. Alongside global gross and production budget, I will examin the return on investment (ROI), represented as a percentage using the formula (profit/production budget)*100. These metrics will provide valuable insights for our analysis and decision-making process.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+## Method
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+The first step involved acquiring the necessary data and organizing it into DataFrames. Although the initial data lacked significant utility on its own, I used SQL to merge the DataFrames and enhance their relevance. Next, I performed data cleaning operations, converting financial values into floats and eliminating duplicated and missing data. To facilitate analysis, I introduced a new column to calculate the ROI. Finally, I visualized the data using matplotlib and seaborn libraries.
 
-## Deliverables
+## Results
 
-There are three deliverables for this project:
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
 
 ### Key Points
 
