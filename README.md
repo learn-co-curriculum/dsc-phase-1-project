@@ -29,8 +29,39 @@ The primary data of utmost importance revolves around financial metrics. Alongsi
 The first step involved acquiring the necessary data and organizing it into DataFrames. Although the initial data lacked significant utility on its own, I used SQL to merge the DataFrames and enhance their relevance. Next, I performed data cleaning operations, converting financial values into floats and eliminating duplicated and missing data. To facilitate analysis, I introduced a new column to calculate the ROI. Finally, I visualized the data using matplotlib and seaborn libraries.
 
 ## Results
+1. Months with the highes movie releases are December, October, April, March, June, August and November respectively.
 
+<img width="548" alt="Number of genres released per month" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/f018735d-a9d4-432d-bca6-aabebe571b20">
 
+2. The first graph shows that the genre drama had the most releases followed by comedy and action while the second graph shows that the most released grouped genres are 'comedy,drama', 'drama,romance', 'comedy,drama, romance' and 'action,crime,drama'.
+
+<img width="726" alt="Number of movies in each exploded genre" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/3eafa4bf-2eb8-43fa-aefb-1419b2b37743">
+
+<img width="548" alt="Number of movies in each top ten genre per month" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/a9a2429c-5d1f-4ced-8eec-a0acea10c16a">
+
+3. The movie production industry is dominated by few directors. These directors produce the most released genres we earlier identified.
+
+<img width="495" alt="Directors of the most released genres" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/3b1dbc4c-a11f-421a-8253-ed97b88cf41c">
+
+4. April had the highest roi followed by July, December, May, November, June and January respectively. Having a closer look at the month of April, I see that despite not being the month with the highest genre releases, with the genre released in that month being a combination of Comedy, Drama and Horror with its director being Graham Wright.
+
+<img width="566" alt="ROI per month" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/9b82141b-24f3-4c66-9e0b-4faa92cec42e">
+
+5. The below line graph reveals that the some of the genres with the highest roi are horror, musical, animation and family. I find this quite strange given that these are not the same genres I find under mostly released genres per month.
+
+<img width="732" alt="Average ROI per genre" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/fb278f25-c082-4f1a-a3e8-b274dc85d4db">
+
+6. The below heat map shows that from a closer look, contrary to the above line graph, the sport genre had the highest ROI. This could be due to the low investment/budget put in this movie genre compared to horror.
+
+<img width="416" alt="Average ROI FO Top 10 exploded genres" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/2b885e8d-43d4-4000-b645-f09083fea5a5">
+
+Looking at the grouped genres, I found that when movies released have combined genres, the ROI is much higher. An instance is where a combination of action, comedy and drama have the highest ROI.
+
+<img width="540" alt="Average ROI for top 10 grouped genres" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/fac2a7d1-12cb-49a3-afd4-9ca619a99951">
+
+7. Top 30 directors with the highest ROI in our dataset directed movies with genres as follows Biography, Documentary, Action, Comedy, Drama, Romance, Horror, Animation, Family, Sport, Fantasy and Musical. Their main release months are January, February, March, October, November and December.
+
+<img width="413" alt="Average ROI for Top 30 Directors" src="https://github.com/EngCS254/dsc-phase-1-project/assets/139503182/027a3a87-9c0c-4510-95a4-3f132af61726">
 
 
 ### Key Points
