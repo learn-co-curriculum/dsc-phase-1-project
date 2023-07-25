@@ -1,66 +1,42 @@
-# Phase 1 Project
+## Project Title
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+#### Lead Movies Creation.
+This project is designed to generate insights for a business stakeholder. Advise the business stakeholder on the types of films to create.
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+### Project Objectives
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+1)Create a Frequency Table of top ten created movie genres
+2)Create a pie chart of top ten created movie genres 
+3)Creating a line plot to for the trend of annual domestic gross income over time
+4)Creating a line plot to for the trend of annual foreign gross income over time
 
-## Project Overview
+### Data
+The project used three datasets to come up with the following project analysis. The data used include:
+#### bom.movie_gross 
+this  data contained five columns which contained details about the title, studio, domestic gross , foreign gross and year in which the movies started.
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+####  imdb.title.ratings
+The data had 73856 rows and  3 columns
+This  data had the following information about the movies: 
+ tconst.         
+averagerating - This is how the audience were rating the movies. Scale used was scale 0 to 10  
+numvotes - This were the number of votes that each movies earned.
 
-### Business Problem
+#### imdb.title.basics
+The dataset has 146144 rows and 6 columns.
+The columns in the dataset contained information about the following:
+tconst           
+primary_title    
+original_title   
+start_year       
+runtime_minutes  
+genres           
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
-### The Data
+### Recommendation and conclusion
 
-In the folder `zippedData` are movie datasets from:
-
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
-
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
-
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
-
-## Deliverables
-
-There are three deliverables for this project:
-
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
-
-### Key Points
-
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
-
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
-
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
-
-## Getting Started
-
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
-# Phase_1-project
+The analysis done show that movies from Drama genres were the most produced followed by Documentary the Comedy.
+When looking at the market share of the different movies genre. Drama has the largest percentage. Drama enjoys a share of 30.1 % followed by Documentary by 28.8% and documentary which enjoys 13.9%.
+The Analysis also indicate that gross income earned from both documestic and foreign market are not consistent. It increases and decreases.
+From the analysis the Business stakeholder is  can venture into creating movies of genres Drama, Documentary and Comedy given the market the three enjoy.The three enjoy a market of upto 72.8%.
+The Business should target both Foreign and domestic markets to cussion themselves from uncertainities and also to diversify their risk.
