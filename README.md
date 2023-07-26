@@ -1,3 +1,27 @@
+## Optimizing decision making & utilization of resources in movie production.
+
+This project aims to use the basics of exploratory data analysis to  generate insights for a business stakeholder.
+Through the data in this repo we aim to optimize decision making & utilization of resources in movie production which 
+is critical to any business especially in the inception days where alot of their decisions should be data driven.
+
+We take a look at
+1. Which genres matter?
+2. Where are average runtimes you should consider?
+3. How much it costs to produce such movies?
+4. A forecast of what utlizing this insights may lead in $$ return?
+
+
+
+
+##### Find the original question below. 
+
+
+
+
+
+
+
+
 # Phase 1 Project
 
 You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
